@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-sender",
+  "version": "1.0.0",
+  "description": "Microserviço para envio de mensagens WhatsApp via WhatsApp Web (Baileys)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "express": "^4.21.2",
+    "pino": "^9.6.0"
+  }
+}
